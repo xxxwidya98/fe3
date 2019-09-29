@@ -1,0 +1,99 @@
+*{
+	font-family: sans-serif;
+	margin:0;
+}
+header {
+	max-width: 100%; /* atur lebar */
+	min-height:60px;
+	border:0px solid;
+	background-color:#999999;
+	padding-left: 25px;
+	
+}
+.brand {
+	width: 20%;
+	heigh: 60px;
+	line-height: 60px;
+	color:#000000;
+	font-weight: bold;
+	
+}
+.section {
+	width: 100%;
+	min-height: 250px;
+	border:0px solid;
+	padding-top: 50px;
+	padding-buttom: 50px;
+}
+.section-title {
+	line-height: 50px;
+	width: 15%;
+	height: 50px;
+	margin: 0px auto;
+	text-align:center; /* atur posisi text */
+	border-bottom: 4px solid #000000;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+#banner {
+	background-color:#666666;
+	background-image: url("../img/img-1.jpg");
+	background-size: cover;
+	background-attachment:fixed;
+}
+.section-content {
+	width: 80%;
+	min-height: 200px;
+	border: 0px solid;
+	margin: 0px auto;
+	padding: 25px;
+	overflow:hidden;
+}
+.left {
+	width: 45%;
+	min-height: 100px;
+	border: 0px solid;
+	float:left;
+	margin: 25px;
+}
+.right {
+	width: 45%;
+	min-height: 100px;
+	border: 0px solid;
+	float:left;
+	margin:25px;
+}
+.img-galeri{
+	width: 150px;
+	height: 150px;
+	margin: 16px;
+}
+#portfolio {
+	background-color:#999999;
+
+}
+.form-group{
+	width: 100%;
+	min-height: 80px;
+	border: 0px solid;
+	margin-botton: 10px;
+}
+.form-group input{type=text}{
+	width: 100%;
+	height: 30px;
+}
+.form-group.btn {
+	padding: 14px 20px;
+	background-color:#003333;
+	color:#0033CC;
+	cursor: pointer;
+	border-radius: 4px;
+}
+footer{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background-color:#999999;
+	color:#CCCCCC;
+}
